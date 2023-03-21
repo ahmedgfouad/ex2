@@ -7,6 +7,15 @@ class Ex extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(),
+      body: Column(
+        children: [
+          Container(
+            width: 100,
+            height: 300,
+            color: Colors.amber,
+          )
+        ],
+      ),
     );
   }
 }
